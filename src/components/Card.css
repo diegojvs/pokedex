@@ -1,0 +1,176 @@
+.card{
+    background-color: rgba(255, 255, 255,.5);
+    border-radius: .5rem;
+    padding: 1rem;
+    margin: 3rem;
+    width: 17rem;
+    height: 23rem;
+}
+
+.card:hover{
+    animation: ani-card 1s;
+}
+
+@keyframes ani-card{
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-3%);
+    }
+}
+
+.container-img{
+    display: flex;
+    justify-content: center;
+}
+
+.name{
+    text-align: center;
+    font-weight: 900;
+}
+
+.container-type{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.type{
+    display: inline-block;
+    padding: .3rem;
+    margin: .1rem;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+}
+
+.info p{
+    margin: .4rem;
+}
+
+.stats p{
+    margin: .2rem 0;
+}
+
+.normal {
+	background-color: rgb(168, 168, 120);
+    border: .15rem solid rgb(109, 109, 78);
+	border-radius: .8rem;
+}
+
+.fire {
+	background-color: rgb(240, 128, 48);
+    border: .15rem solid rgb(156, 83, 31);
+	border-radius: .8rem;
+}
+
+.water {
+	background-color: rgb(104, 144, 240);
+    border: .15rem solid rgb(68, 94, 156);
+	border-radius: .8rem;
+}
+
+.electric {
+	background-color: rgb(248, 208, 48);
+    border: .15rem solid rgb(161, 135, 31);
+	border-radius: .8rem;
+}
+
+.grass {
+	background-color: rgb(120, 200, 80);
+    border: .15rem solid rgb(78, 130, 52);
+	border-radius: .8rem;
+}
+
+.ice {
+	background-color: rgb(152, 216, 216);
+    border: .15rem solid rgb(99, 141, 141);
+	border-radius: .8rem;
+}
+
+.ground {
+	background-color: rgb(224, 192, 104);
+    border: .15rem solid rgb(146, 125, 68);
+	border-radius: .8rem;
+}
+
+.flying {
+	background-color: rgb(168, 144, 240);
+    border: .15rem solid rgb(109, 94, 156);
+	border-radius: .8rem;
+}
+
+.ghost {
+	background-color: rgb(112, 8, 152);
+    border: .15rem solid rgb(73, 57, 99);
+	border-radius: .8rem;
+}
+
+.rock {
+	background-color: rgb(184, 160, 56);
+    border: .15rem solid rgb(120, 104, 36);
+	border-radius: .8rem;
+}
+
+.fighting {
+	background-color: rgb(192, 48, 40);
+    border: .15rem solid rgb(125, 31, 26);
+	border-radius: .8rem;
+}
+
+.poison {
+	background-color: rgb(160, 64, 160);
+    border: .15rem solid rgb(104, 42, 104);
+	border-radius: .8rem;
+}
+
+.psychic {
+	background-color: rgb(248, 88, 136);
+    border: .15rem solid rgb(161, 57, 89);
+	border-radius: .8rem;
+}
+
+.bug {
+	background-color: rgb(168, 184, 32);
+    border: .15rem solid rgb(109, 120, 21);
+	border-radius: .8rem;
+}
+
+.dark {
+	background-color: rgb(112, 88, 72);
+    border: .15rem solid rgb(73, 57, 47);
+	border-radius: .8rem;
+}
+
+.steel {
+	background-color: rgb(184, 184, 208);
+    border: .15rem solid rgb(120, 120, 135);
+	border-radius: .8rem;
+}
+
+.dragon {
+	background-color: rgb(112, 56, 248);
+    border: .15rem solid rgb(73, 36, 161);
+	border-radius: .8rem;
+}
+
+.fairy {
+	background-color: rgb(238, 153, 172);
+    border: .15rem solid rgb(155, 100, 112);
+	border-radius: .8rem;
+}
+
+@media screen and (max-width: 600px) {
+    .card-m{
+        background-color: rgba(255, 255, 255,.5);
+        border-radius: .5rem;
+        padding: 1rem;
+        margin: 3rem;
+        width: 17rem;
+        height: 25rem;
+    }
+}

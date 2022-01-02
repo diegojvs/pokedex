@@ -1,0 +1,26 @@
+.container{
+    background-color: rgb(92, 173, 226);
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 3rem;
+    border-radius: .8rem;
+}
+
+.container-button{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    display: block;
+    padding: .3rem;
+    margin: 3rem;
+    width: 10rem;
+    border-radius: 4rem;
+    cursor: pointer;
+}
