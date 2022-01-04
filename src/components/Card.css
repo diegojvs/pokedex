@@ -4,20 +4,24 @@
     padding: 1rem;
     margin: 3rem;
     width: 17rem;
-    height: 23rem;
+    height: 25rem;
 }
 
 .card:hover{
-    animation: ani-card 1s;
+    animation: ani-card 1s linear;
 }
 
 @keyframes ani-card{
-    from {
+    0% {
         transform: translateY(0);
     }
 
-    to {
+    50% {
         transform: translateY(-3%);
+    }
+
+    100% {
+        transform: translateY(0%);
     }
 }
 
